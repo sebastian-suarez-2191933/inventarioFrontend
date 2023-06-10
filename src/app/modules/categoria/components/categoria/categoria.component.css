@@ -1,0 +1,37 @@
+table{
+    width: 100%;
+    text-align: start;
+}
+
+.alinear{
+    text-align: center;
+    margin-top: 3px;
+}
+
+ul li{
+    list-style: none;
+}
+
+.letraInput:hover{
+    color: blue;
+}
+
+mat-form-field{
+    width: 140%;
+}
+
+.mat-cell:nth-child(1){
+    width: 15%;
+}
+
+.mat-cell:nth-child(2){
+    width: 20%;
+}
+
+.mat-cell:nth-child(3){
+    width: 45%;
+}
+
+.mat-cell:nth-child(4){
+    width: 15%;
+}   

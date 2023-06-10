@@ -5,6 +5,7 @@ import { DashboardComponent } from './pages/dashboard.component';
 import { RouterModule } from '@angular/router';
 import { SidenavComponent } from '../shared/components/sidenav/sidenav.component';
 import { SharedModule } from '../shared/shared.module';
+import { CategoriaModule } from '../categoria/categoria.module';
 
 
 
@@ -15,7 +16,8 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     RouterModule,
-    SharedModule
+    SharedModule,
+    CategoriaModule,
   ]
 })
 export class DashboardModule { }
